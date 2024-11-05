@@ -7,8 +7,41 @@
     <link rel="stylesheet" href="cart.css" />
 </head>
 <body>
+    <div id="container">
+        <div id="header">
+            <div id="logoButton">
+                <a  href="index.html">TicketHack</a>
+            </div>
+            <div id="cartButton">
+                <a  href="cart.html">Cart</a>
+            </div>
+            <div id="bookingButton">
+                <a  href="booking.html">Bookings</a>
+            </div>
+        </div>  
 
-    
+        <div id="content">
+            <div id="cart">
+                <h2 id="myCart">My cart</h2>
+
+                <div class="travelDetail">
+                    <div id="path">Paris>Lyon</div>
+                    <div id="departureTime">20:09</div>
+                    <div id="price">103€</div>
+                    
+                    <button class="deleteTravel">X</button>
+                    
+                </div>
+                <div id="cartFooter">
+                    <div id="totalPrice">Total: 103€</div>
+                    <div class="purchase">
+                        <a href="booking.html">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
     <script src="cart.js"></script>
 </body>
 </html>
