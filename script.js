@@ -1,3 +1,6 @@
+
+
+
 // au clic sur btn-search on reccupère les infos depart arrivée et date
 document.querySelector("#btn-search").addEventListener("click", function () {
     let departure = document.querySelector("#depart").value;
@@ -18,14 +21,7 @@ document.querySelector("#btn-search").addEventListener("click", function () {
                 <a href="cart.html"><button type="button" id="btn-book">Book</button></a>
                 </div>
                  `
-                 //au clic sur le bouton btn-book
-                 document.querySelector("#btn-book").addEventListener("click", function () {
-                    fetch(`http://localhost:3000/travel/cartTrue/${data.travels[i]._id}`) 
-                    .then(response => response.json()) 
-                    .then(data => {
-                        console.log(data)
-                    })
-                 })
+
             }
 			 } else { // si aucun voyage trouvé, on met une image notfound
                 document.querySelector('#imgdroit').src = "images/notfound.png"
