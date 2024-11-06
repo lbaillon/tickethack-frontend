@@ -12,7 +12,7 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 11;
-    border: solid 2px blue;
+    background-color: white;
 }
 
 #logoButton {
@@ -20,10 +20,22 @@
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
-    border: solid 2px greenyellow;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Arial";
+  color: black;
+  font-size: small;
+}
+
+#logo{
+  color: rgb(7, 132, 120);
+  font-weight: bold;
+  font-size: large;
 }
 
 #cartButton {
@@ -31,7 +43,6 @@
     grid-row-end: 2;
     grid-column-start: 9;
     grid-column-end: 10;
-    border: solid 2px red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +53,6 @@
     grid-row-end: 2;
     grid-column-start: 10;
     grid-column-end: 11;
-    border: solid 2px purple;
     display: flex;
     justify-content: center;
     align-items: center;

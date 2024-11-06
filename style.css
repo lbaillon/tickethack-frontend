@@ -43,7 +43,7 @@ a {
 #logo{
   color: rgb(7, 132, 120);
   font-weight: bold;
-  font-size: medium;
+  font-size: large;
 }
 
 #cartButton {
@@ -124,13 +124,14 @@ a {
   }
 
   #blocImg{
-    border-bottom: solid, 1px, rgb(7, 132, 120);
+    border-bottom: 2px solid rgb(7, 132, 120);
     object-fit: cover; 
   }
 
   .btn-book{
     background-color: rgb(7, 132, 120);
     color: white;
+    height: 100%;
   }
 
   .voyage{
@@ -141,10 +142,11 @@ a {
     justify-content: flex-end;
     margin-top: 5%;
     width: 90%;
+    
   }
 
   .voyageList{
     font-family: "Arial";
-    font-size: x-small;
+    font-size: smaller;
     margin-right: 4px;
   }
