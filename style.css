@@ -14,6 +14,50 @@ body {
     height: 100vh;
   }
 
+  #header {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    background-color: white;
+}
+
+#logoButton {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 132, 120);
+    font-weight: 200;
+    text-decoration: none;
+}
+
+#cartButton {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 9;
+    grid-column-end: 10;
+    border: solid 2px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bookingButton {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    border: solid 2px purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
   #zonetexte {
     grid-row-start: 2;
     grid-row-end: 5;
@@ -70,7 +114,7 @@ body {
     color: white;
   }
 
-  #btn-book{
+  .btn-book{
     background-color: rgb(7, 132, 120);
     color: white;
   }
