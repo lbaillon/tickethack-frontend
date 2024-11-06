@@ -10,7 +10,8 @@ document.querySelector("#btn-search").addEventListener("click", function () {
     fetch(`http://localhost:3000/travel/${departure}/${arrival}/${date}`)
 	.then(response => response.json())
 	.then(data => { 
-		if (data) { //on enlève l'image et le bloc de texte et on rajoute les noms des différents voyages
+        console.log(data.travels)
+		if (data.travels) { //on enlève l'image et le bloc de texte et on rajoute les noms des différents voyages
                 document.querySelector('#imgdroit').remove();
                 document.querySelector('#texteBlocDroit').remove();
                 for (let i = 0; i<data.travels.length; i++) {
